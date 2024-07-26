@@ -1,8 +1,22 @@
 [package]
 name = "math-kit"
-version = "1.0.0"
+version = "2.0.0"
 edition = "2021"
 description = "Math Library for Rust 🦀"
 license = "Apache-2.0"
+
+[features]
+add = []
+subtract = []
+multiply = []
+divide = []
+discount = []
+all = [
+    "add",
+    "subtract",
+    "multiply",
+    "divide",
+    "discount"
+]
 
 [dependencies]
