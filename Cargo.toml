@@ -1,0 +1,8 @@
+[package]
+name = "math-kit"
+version = "1.0.0"
+edition = "2021"
+description = "Math Library for Rust 🦀"
+license = "Apache-2.0"
+
+[dependencies]
